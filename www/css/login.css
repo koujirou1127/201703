@@ -1,0 +1,97 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);*/
+
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  font-family:'Impact',sans-serif;
+}
+fieldset{
+  width:370px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+
+}
+h1{
+  background:#07861f;
+  padding:20px 0; /*PADDING TODOS OS LADOS DE 20PX*/
+  font-size:200%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+input[type="password"]{
+  width:70%;
+  height:20px;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4% 4% 4% 4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+.iconPassword{
+  width:20px;
+  height:20px;
+  background-color:#65de7c;
+  float:left;
+  padding:4% 4% 4% 4%;
+  margin-bottom:4%;
+  background-repeat:no-repeat;
+   background-image:url("../images/lock.png");
+  background-position:center;
+  border:1px solid #ccc;
+}
+.iconUser{
+  width:20px;
+  height:20px;
+  background-color:#65de7c;
+  float:left;
+  padding:4% 4% 4% 4%;
+  margin-bottom:4%;
+  background-repeat:no-repeat;
+   background-image:url("../images/human.png");
+  background-position:center;
+  border:1px solid #ccc;
+}
+input[type="text"]{
+  width:70%;
+  height:20px;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4% 4% 4% 4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+input[type="button"]{
+  width:30%;
+  background:#07861f;
+  border:0;
+  padding:4%;
+  font-family:'Impact',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-appearance: none;
+  -webkit-transition:background .3s;
+  border-radius:0
+}
+
+input[type="button"]:hover{
+  /*background:#65de7c;*/
+  color:#000000;
+}
+::-webkit-input-placeholder {
+
+}
